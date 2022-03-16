@@ -1,0 +1,126 @@
+/* ==UserStyle==
+@name           Leo-Dark
+@namespace      github.com/d-Rickyy-b
+@version        1.0.0
+@description    A dark theme for the leo.org dictionary
+@homepageURL    https://github.com/d-Rickyy-b/Leo-Dark
+@updateURL      https://raw.githubusercontent.com/d-Rickyy-b/Leo-Dark/main/leo-dark.user.css
+@license        MIT
+@author         d-Rickyy-b
+==/UserStyle== */
+
+@-moz-document domain("dict.leo.org") {
+    
+    
+    html {
+        background-color: #12181c;
+        color: #c9d1d9;
+    }
+    
+    .bg-darkyellow {
+        background-color: #1a1f25;
+        color: #c9d1d9;
+    }
+    
+
+    #searchBar {
+        background-color: #1a1f25;
+        color: #c9d1d9;
+    }
+    
+    .tblf-alternate > tbody > tr:nth-child(2n) > td {
+        background-color: #1a1f25;
+    }
+    
+    .ui-widget-content {
+        background-color: #1a1f25;
+        color: #c9d1d9;
+    }
+    
+    .pink {
+        color: #f7d523;
+    }
+    
+    .section > footer.more {
+        background: #1a1f25;
+    }
+    
+    .tblf-alternate > tbody > tr:nth-child(2n) > td,
+    .tblf-alternate > tbody > tr > td{
+        border-bottom: 1px solid #1a1f25;
+    }
+    
+    a,
+    .isRelinked, 
+    .isRelinked mark,
+    .isRelinked mark a,
+    td > samp {
+        color: #f7d523;
+    }
+    
+    .c-link, .c_link{
+        color: #2378c2;
+    }
+    
+    .button-flat {
+        color: #f7d523;
+    }
+    
+    .darkgray {
+        color: #949ba2;
+    }
+    
+    .card,
+    .card-tip::after {
+        background-color: #1a1f25;
+    }
+    
+    .search,
+    #search-field,
+    input,
+    .bg-white {
+        background-color: #3f4954;
+        color: #c9d1d9;
+    }
+    
+    #search-field:active,
+    #search-field:focus{
+        color: #c9d1d9;
+    }
+    
+    .forumResults table tbody tr:nth-child(4n+3) td, .forumResults table tbody tr:nth-child(4n+4) td {
+        background: #1a1f25;
+        border-bottom: 1px solid #1a1f25;
+    }
+    
+    .bg-lightblue {
+        background: #1a1f25;
+    }
+    
+    .section {
+        border-color: #1a1f25;
+    }
+    
+    .is-active {
+        background: #1a1f25;
+    }
+    
+    .l-dict-nav ul li:not(:last-child),
+    .border {
+        border-color: #000;
+    }
+    
+    .footer {
+        border-color: #1a1f25;
+        background-color: #1a1f25;
+    }
+    
+    [data-dz-ui~="flag"].bd > div{
+        border: none;
+    }
+    
+    .m-bottom-large {
+        background-color: #1a1f25 !important;
+    }
+    
+}
